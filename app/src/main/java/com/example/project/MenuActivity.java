@@ -16,6 +16,9 @@ public class MenuActivity extends AppCompatActivity {
 
         Button profile = (Button) findViewById(R.id.btnProfile);
         Button accommodation = (Button) findViewById(R.id.btnAccommodation);
+        Button services = (Button) findViewById(R.id.btnServices);
+        Button facilities = (Button) findViewById(R.id.btnFacilities);
+        Button about = (Button) findViewById(R.id.btnAbout);
 
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,6 +28,24 @@ public class MenuActivity extends AppCompatActivity {
         });
 
         accommodation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MenuActivity.this, AccommodationActivity.class));
+            }
+        });
+        services.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MenuActivity.this, AccommodationActivity.class));
+            }
+        });
+        facilities.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MenuActivity.this, AccommodationActivity.class));
+            }
+        });
+        about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MenuActivity.this, AccommodationActivity.class));

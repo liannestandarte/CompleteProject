@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Project</string>
+    <string name="bulleted_list1">
+        <li>• Reception desk open 24 hours a day</li>\n
+        <li>• The hotel has a no smoking policy</li>\n
+        <li>• Free PC + internet in the lobby</li>\n
+        <li>• Free Wi-Fi</li>\n
+        <li>• Coeliac catering (necessary to order in advance)</li>\n
+        <li>• Library</li>\n
+        <li>• Fire alarm</li>\n
+        <li>• Wheelchair access</li>\n
+        <li>• Ironing board and iron available</li>\n
+        <li>• Telephone alarm</li>\n
+        <li>• Pets are not allowed</li>\n
+        <li>• Baby cot free of charge</li>\n
+        <li>• Board games</li>
+    </string>
+    <string name="bulleted_list2">
+        <li>• Training congress centre</li>\n
+        <li>• Catering services</li>\n
+        <li>• Babysitting</li>\n
+        <li>• Lobby bar</li>\n
+        <li>• Transfers arranged</li>\n
+        <li>• Laundry service</li>\n
+        <li>• Additional beds can be placed in the apartments</li>\n
+        <li>• Fruit basket (necessary to order in advance)</li>\n
+        <li>• Bottle of sparkling wine and Leonidas chocolate pralines</li>\n
+        <li>• Flowers in the room (necessary to order in advance)</li>\n
+        <li>• Upgrade to a higher room standard</li>
+    </string>
 </resources>

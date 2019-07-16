@@ -12,7 +12,6 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -26,6 +25,14 @@
             android:label="Profile"/>
         <activity android:name=".AccommodationActivity"
             android:label="Accommodation"/>
+        <activity android:name=".ServicesActivity"
+            android:label="Services"/>
+        <activity android:name=".ServicesActivity2"
+            android:label="Services"/>
+        <activity android:name=".FacilitiesActivity"
+            android:label="Facilities"/>
+        <activity android:name=".AboutActivity"
+            android:label="About"/>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
