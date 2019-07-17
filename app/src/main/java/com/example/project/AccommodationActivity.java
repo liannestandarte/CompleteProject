@@ -6,8 +6,10 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class AccommodationActivity extends AppCompatActivity {
@@ -21,38 +23,42 @@ public class AccommodationActivity extends AppCompatActivity {
 
         pref = getSharedPreferences("AppPref", MODE_PRIVATE);
 
-        @SuppressLint("WrongViewCast") Button deluxe = (Button) findViewById(R.id.deluxeimgbtn);
-        @SuppressLint("WrongViewCast") Button one = (Button) findViewById(R.id.onesuiteimgbtn);
-        @SuppressLint("WrongViewCast") Button two = (Button) findViewById(R.id.twosuiteimgbtn);
-        @SuppressLint("WrongViewCast") Button three = (Button) findViewById(R.id.threesuiteimgbtn);
-        Button logout = (Button) findViewById(R.id.btnLogout);
+        final ImageButton deluxe = (ImageButton) findViewById(R.id.deluxeimgbtn);
+        final ImageButton one = (ImageButton) findViewById(R.id.onesuiteimgbtn);
+        final ImageButton two = (ImageButton) findViewById(R.id.twosuiteimgbtn);
+        final ImageButton three = (ImageButton) findViewById(R.id.threesuiteimgbtn);
         Button back = (Button) findViewById(R.id.btnBack);
+        Button logout = (Button) findViewById(R.id.btnLogout);
 
         deluxe.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(AccommodationActivity.this, "Deluxe Room reserved", Toast.LENGTH_SHORT).show();
+            public void onClick(View v) {
+                Toast toast = Toast.makeText(getApplicationContext(), "Deluxe Room reserved.", Toast.LENGTH_SHORT);
+                toast.show();
+                toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
             }
         });
 
         one.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(AccommodationActivity.this, "One Bedroom Suite reserved.", Toast.LENGTH_SHORT).show();
+            public void onClick(View v) {
+                Toast toast = Toast.makeText(getApplicationContext(), "One Bedroom Suite reserved.", Toast.LENGTH_SHORT);
+                toast.show();
+                toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
             }
         });
 
         two.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(AccommodationActivity.this,"Two Bedroom Suite reserved.", Toast.LENGTH_SHORT).show();
+            public void onClick(View v) {
+                Toast toast = Toast.makeText(getApplicationContext(), "Two Bedroom Suite reserved.", Toast.LENGTH_SHORT);
+                toast.show();
+                toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
             }
         });
 
         three.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(AccommodationActivity.this,"Three Bedroom Suite reserved.", Toast.LENGTH_SHORT).show();
+            public void onClick(View v) {
+                Toast toast = Toast.makeText(getApplicationContext(), "Three Bedroom Suite reserved.", Toast.LENGTH_SHORT);
+                toast.show();
+                toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
             }
         });
 
@@ -72,17 +78,5 @@ public class AccommodationActivity extends AppCompatActivity {
                 startActivity(new Intent(AccommodationActivity.this, LoginActivity.class));
             }
         });
-    }
-
-
-    protected void oneDisplay(View v) {
-    }
-
-    protected void twoDisplay(View v) {
-        Toast.makeText(this, "Two Bedroom Suite reserved.", Toast.LENGTH_LONG).show();
-    }
-
-    protected void threeDisplay(View v) {
-        Toast.makeText(this, "Three Bedroom Suite reserved.", Toast.LENGTH_LONG).show();
     }
 }

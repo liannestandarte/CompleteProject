@@ -1,31 +1,31 @@
 <resources>
     <string name="app_name">Project</string>
     <string name="bulleted_list1">
-        <li>• Reception desk open 24 hours a day</li>\n
-        <li>• The hotel has a no smoking policy</li>\n
-        <li>• Free PC + internet in the lobby</li>\n
-        <li>• Free Wi-Fi</li>\n
-        <li>• Coeliac catering (necessary to order in advance)</li>\n
-        <li>• Library</li>\n
-        <li>• Fire alarm</li>\n
-        <li>• Wheelchair access</li>\n
-        <li>• Ironing board and iron available</li>\n
-        <li>• Telephone alarm</li>\n
-        <li>• Pets are not allowed</li>\n
-        <li>• Baby cot free of charge</li>\n
-        <li>• Board games</li>
+        <li> Reception Desk Open 24 Hours A Day</li>\n
+        <li> The Hotel Has A No Smoking Policy</li>\n
+        <li> Free PC + Internet In The Lobby</li>\n
+        <li> Free Wi-Fi</li>\n
+        <li> Gluten Free Catering</li>\n
+        <li> Library</li>\n
+        <li> Fire Alarm</li>\n
+        <li> Wheelchair Access</li>\n
+        <li> Ironing Board and Iron Available</li>\n
+        <li> Telephone Alarm</li>\n
+        <li> Pets Are Not Allowed</li>\n
+        <li> Baby Cot Free Of Charge</li>\n
+        <li> Board Games</li>
     </string>
     <string name="bulleted_list2">
-        <li>• Training congress centre</li>\n
-        <li>• Catering services</li>\n
-        <li>• Babysitting</li>\n
-        <li>• Lobby bar</li>\n
-        <li>• Transfers arranged</li>\n
-        <li>• Laundry service</li>\n
-        <li>• Additional beds can be placed in the apartments</li>\n
-        <li>• Fruit basket (necessary to order in advance)</li>\n
-        <li>• Bottle of sparkling wine and Leonidas chocolate pralines</li>\n
-        <li>• Flowers in the room (necessary to order in advance)</li>\n
-        <li>• Upgrade to a higher room standard</li>
+        <li> Training Congress Centre</li>\n
+        <li> Catering Services</li>\n
+        <li> Babysitting</li>\n
+        <li> Lobby Bar</li>\n
+        <li> Transfers Arranged</li>\n
+        <li> Laundry Service</li>\n
+        <li> Fruit Basket</li>\n
+        <li> Bottle Of Sparkling Wine</li>\n
+        <li>Leonidas Chocolate Pralines</li>\n
+        <li> Flowers In The Room</li>\n
+        <li> Upgrade To A  Higher Room Standard</li>
     </string>
 </resources>

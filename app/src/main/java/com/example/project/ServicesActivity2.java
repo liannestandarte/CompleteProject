@@ -17,6 +17,8 @@ public class ServicesActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_services2);
 
+        pref = getSharedPreferences("AppPref", MODE_PRIVATE);
+
         Button logout = (Button) findViewById(R.id.btnLogout);
         Button back = (Button) findViewById(R.id.btnBack);
 

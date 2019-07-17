@@ -18,8 +18,10 @@ public class ServicesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_services);
 
-        Button logout = (Button) findViewById(R.id.btnLogout);
+        pref = getSharedPreferences("AppPref", MODE_PRIVATE);
+
         Button back = (Button) findViewById(R.id.btnBack);
+        Button logout = (Button) findViewById(R.id.btnLogout);
         Button next = (Button) findViewById(R.id.btnNext);
 
         back.setOnClickListener(new View.OnClickListener() {
@@ -42,7 +44,7 @@ public class ServicesActivity extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ServicesActivity.this, MenuActivity.class));
+                startActivity(new Intent(ServicesActivity.this, ServicesActivity2.class));
             }
         });
     }

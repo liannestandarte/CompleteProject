@@ -36,19 +36,19 @@ public class MenuActivity extends AppCompatActivity {
         services.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MenuActivity.this, AccommodationActivity.class));
+                startActivity(new Intent(MenuActivity.this, ServicesActivity.class));
             }
         });
         facilities.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MenuActivity.this, AccommodationActivity.class));
+                startActivity(new Intent(MenuActivity.this, FacilitiesActivity.class));
             }
         });
         about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MenuActivity.this, AccommodationActivity.class));
+                startActivity(new Intent(MenuActivity.this, AboutActivity.class));
             }
         });
     }
